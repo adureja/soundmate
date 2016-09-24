@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Soundmate</title>
+        <script src="js/sdk.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/jquery-3.1.0.js"></script>
+        <script src="js/popup3.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container text-center">
+            <h3>Soundmate</h3>
+            <div class="row">
+                <p>Track Link: </p><input type="text" id="link">
+                <button type="button" class="btn btn-primary" id="checkPage" name="button">
+                    Generate
+                </button>
+            </div>
+
+            <p id="loaded"></p>
+
+            <div id="header"><hr></div> 
+
+            <p id="song_info"></p>
+
+            <button type="button" class="btn btn-success playButton medium" id="Play" name="Play">
+                <i class="fa fa-play"></i>
+            </button>
+
+            <button type="button" class="btn btn-success pauseButton medium" id="Pause" name="Pause">
+                <i class="fa fa-pause"></i>
+            </button>
+
+            <button type="button" class="btn btn-success ffButton medium" id="FF" name="FF">
+                <i class="fa fa-fast-forward"></i>
+            </button>
+
+    	</div>    
+	    <div id="footer">
+            <hr>
+        	<div class="container text-center">
+                <p>&copy; 2016 Avik Dureja</p>
+    		</div>	
+        </div>	
+    </body>
+</html>

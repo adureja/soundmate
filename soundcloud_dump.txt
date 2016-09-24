@@ -1,0 +1,9 @@
+long mixes: 225713731
+
+CLIENT_ID: 56bee040fc7684094d582b0f97872a1f
+CLIENT_SECRET: 622251e61617444f9de1ff5e9c213d72
+
+curl "http://api.soundcloud.com/playlists/225713731?client_id=56bee040fc7684094d582b0f97872a1f"
+
+
+curl "http://api.soundcloud.com/users/21341354/playlists?client_id=56bee040fc7684094d582b0f97872a1f"
